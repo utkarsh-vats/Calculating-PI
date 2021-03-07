@@ -5,7 +5,7 @@ let history = [];
 let piDiv, piDiv2;
 function setup() {
   createCanvas(600, 400);
-  piDiv = createDiv(pi * 4);
+  piDiv = createDiv(pi);
   piDiv2 = createDiv(PI);
   piDiv.style("color", "#000").style("font-size", "72px");
 }
